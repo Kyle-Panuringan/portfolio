@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./main.css";
 import Hero from "../hero/Hero";
 import Projects from "../projects/Projects";
@@ -9,8 +9,8 @@ function Main() {
 	return (
 		<main>
 			<Hero />
-			<Projects />
 			<About />
+			<Projects />
 			<Contact />
 		</main>
 	);

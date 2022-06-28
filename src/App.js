@@ -1,15 +1,24 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
+import NavbarMini from "./components/navbarMini/NavbarMini";
 import Main from "./components/main/Main";
+import { AiFillHome } from "react-icons/ai";
+import { BsFillPersonFill } from "react-icons/bs";
+import { IoConstructSharp } from "react-icons/io5";
+import { RiContactsBook2Fill } from "react-icons/ri";
 
 function App() {
+	const icons = {
+		AiFillHome: AiFillHome,
+		BsFillPersonFill: BsFillPersonFill,
+		IoConstructSharp: IoConstructSharp,
+		RiContactsBook2Fill: RiContactsBook2Fill,
+	};
 	return (
-		<Router>
-			<Navbar />
-			<Routes>
-				<Route path="/" element={<Main />}></Route>
-			</Routes>
-		</Router>
+		<div>
+			<NavbarMini icons={icons} />
+			<Navbar icons={icons} />
+			<Main />
+		</div>
 	);
 }
 

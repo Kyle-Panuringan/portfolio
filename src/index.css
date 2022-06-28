@@ -3,6 +3,7 @@
 	--color-primary-red-1: rgb(255, 0, 0);
 	--color-font-white-1: white;
 	--color-font-red-1: rgb(190, 0, 0);
+	--color-font-red-2: rgb(236, 0, 0);
 }
 * {
 	margin: 0;
@@ -27,4 +28,24 @@ code {
 
 a {
 	text-decoration: none;
+}
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: rgb(29, 29, 29);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color-font-red-1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-font-red-2);
 }

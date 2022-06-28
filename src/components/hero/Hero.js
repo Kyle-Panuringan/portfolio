@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Hero() {
 	return (
-		<div className="hero-content">
+		<div className="hero-content" id="hero">
 			<h2>
 				HELLO,<span> MY NAME IS</span>
 			</h2>

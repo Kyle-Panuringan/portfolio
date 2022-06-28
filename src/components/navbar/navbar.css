@@ -13,6 +13,7 @@ nav {
 .off-box-shadow {
 	box-shadow: none !important;
 }
+/* Hide the nav-container */
 .hide-nav-container {
 	top: -55px;
 	box-shadow: none;
@@ -51,16 +52,19 @@ nav {
 	box-shadow: 0px 0px 20px var(--color-primary-red-1);
 	transition: all 1s, box-shadow 2s;
 }
-.nav-links a {
+.nav-links li a {
 	color: var(--color-font-white-1);
 	font-weight: bolder;
 	text-transform: uppercase;
 	border: 1px solid white;
 	display: flex;
 	justify-content: center;
-	padding: 10px;
+	padding: 0px;
 }
-@media screen and (min-width: 700px) {
+.nav-links li a:hover {
+	color: var(--color-font-red-2);
+}
+@media screen and (min-width: 870px) {
 	/* Hide the hamburger button */
 	.nav-hamburger {
 		display: none;
@@ -78,8 +82,60 @@ nav {
 		margin-right: 20px;
 		list-style-type: none;
 	}
-	.nav-links a {
+	.nav-links li {
 		padding: 12px 40px;
+		border: none;
+	}
+	/* Set all the properties of this class to its initial value */
+	.nav-links-container {
+		all: initial;
+	}
+}
+/* Hide the nav-links-container by putting it at the top offscreen */
+.nav-links-container {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	background: black;
+	transform: translateY(-11rem);
+	transition: all 0.4s;
+}
+/* Show the nav-links-container */
+.show-container {
+	transform: translateY(0rem) !important;
+	box-shadow: 0px 0px 20px var(--color-primary-red-1);
+	transition: all 1s, box-shadow 2s;
+}
+.nav-links li a {
+	color: var(--color-font-white-1);
+	font-weight: bolder;
+	text-transform: uppercase;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	cursor: pointer;
+}
+@media screen and (min-width: 870px) {
+	/* Hide the hamburger button */
+	.nav-hamburger {
+		display: none;
+	}
+	/* Turn the display child of "nav-container" into flex(row) */
+	.nav-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 40px;
+	}
+	/* Turn the links flex direction into row(default) */
+	.nav-links {
+		display: flex;
+		margin-right: 20px;
+		list-style-type: none;
+	}
+	.nav-links li a {
+		padding: 0px 10px;
 		border: none;
 	}
 	/* Set all the properties of this class to its initial value */

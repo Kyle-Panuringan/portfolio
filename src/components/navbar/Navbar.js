@@ -1,12 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 
-function Navbar() {
+function Navbar({ icons }) {
 	const [active, setActive] = useState(false);
 	const [showNav, setShowNav] = useState(true);
-
+	const {
+		AiFillHome,
+		BsFillPersonFill,
+		IoConstructSharp,
+		RiContactsBook2Fill,
+	} = icons;
+	// 2.Hide the "nav-container" when the scrollY is greater than 50
 	const showNavFunction = () => {
 		if (window.scrollY > 50) {
 			setShowNav(false);
@@ -14,7 +20,7 @@ function Navbar() {
 			setShowNav(true);
 		}
 	};
-
+	// 1.Hide the "nav-container" when the scrollY is greater than 50
 	useEffect(() => {
 		window.addEventListener("scroll", showNavFunction);
 		return () => {
@@ -32,11 +38,10 @@ function Navbar() {
 			>
 				{/* Nav Header */}
 				<div className="nav-header">
-					<Link to="/">
-						<h1>
-							KYLE<span>PANURINGAN</span>
-						</h1>
-					</Link>
+					<h1>
+						KYLE<span>PANURINGAN</span>
+					</h1>
+
 					<button
 						className="nav-hamburger"
 						onClick={() => setActive(!active)}
@@ -51,16 +56,52 @@ function Navbar() {
 				>
 					<ul className="nav-links">
 						<li>
-							<Link to="/">Home</Link>
+							<Link
+								to="hero"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={500}
+								onClick={() => setActive(!active)}
+							>
+								Home
+							</Link>
 						</li>
 						<li>
-							<Link to="/">Projects</Link>
+							<Link
+								to="about"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={500}
+								onClick={() => setActive(!active)}
+							>
+								About
+							</Link>
 						</li>
 						<li>
-							<Link to="/">About</Link>
+							<Link
+								to="projects"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={500}
+								onClick={() => setActive(!active)}
+							>
+								Projects
+							</Link>
 						</li>
 						<li>
-							<Link to="/">Contact</Link>
+							<Link
+								to="contact"
+								spy={true}
+								smooth={true}
+								offset={0}
+								duration={500}
+								onClick={() => setActive(!active)}
+							>
+								Contact
+							</Link>
 						</li>
 					</ul>
 				</div>
