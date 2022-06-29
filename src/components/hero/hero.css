@@ -29,14 +29,49 @@
 	color: rgb(58, 58, 58);
 	font-size: 1.5rem;
 }
-.hero-content button {
+.resume {
 	color: var(--color-font-white-1);
 	border: 2px solid var(--color-font-white-1);
 	font-size: 1rem;
 	font-weight: bolder;
 	text-transform: uppercase;
-	padding: 12px;
 	background: none;
+	padding: 14px 17px;
 	border-radius: 10px;
 	cursor: pointer;
+	transition: all 0.4s;
+}
+.resume:hover {
+	color: var(--color-font-red-2);
+	border: 2px solid var(--color-primary-red-1);
+	box-shadow: 0px 0px 15px var(--color-primary-red-1);
+	transition: all 0.4s;
+}
+.hero-social-links a {
+	font-size: 1.2rem;
+	color: var(--color-font-white-1);
+}
+.hero-social-links a:hover {
+	color: var(--color-font-red-2);
+}
+@media screen and (max-width: 870px) {
+	.hero-content {
+		padding-right: 0;
+		background-image: linear-gradient(
+				rgba(0, 0, 0, 0.7),
+				rgba(0, 0, 0, 0.7)
+			),
+			url(/src/assets/heroMobile.jpg);
+	}
+	.hero-content h2:nth-child(1) {
+		font-size: 1rem;
+	}
+	.hero-content h2:nth-child(2) {
+		color: var(--color-font-red-1);
+		font-size: 2rem;
+	}
+	.hero-content h3 {
+		color: rgb(58, 58, 58);
+		font-size: 1rem;
+	}
 }
