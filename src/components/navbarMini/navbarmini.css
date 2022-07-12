@@ -2,6 +2,7 @@
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	z-index: 1;
 }
 .navbar-mini ul {
 	background: var(--color-font-red-1);

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect } from "react";
 import "./main.css";
 import Hero from "../hero/Hero";
 import Projects from "../projects/Projects";

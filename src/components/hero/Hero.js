@@ -4,7 +4,6 @@ import RM from "../../assets/resume.pdf";
 import { MdEmail } from "react-icons/md";
 import { ImGithub } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
-
 function Hero() {
 	return (
 		<div className="hero-content" id="hero">

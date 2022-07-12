@@ -6,12 +6,7 @@ import { FaBars } from "react-icons/fa";
 function Navbar({ icons }) {
 	const [active, setActive] = useState(false);
 	const [showNav, setShowNav] = useState(true);
-	const {
-		AiFillHome,
-		BsFillPersonFill,
-		IoConstructSharp,
-		RiContactsBook2Fill,
-	} = icons;
+
 	// 2.Hide the "nav-container" when the scrollY is greater than 50
 	const showNavFunction = () => {
 		if (window.scrollY > 50) {

@@ -1,5 +1,7 @@
+import React from "react";
 import "./projects.css";
 import projectData from "./projectsData";
+
 function Projects() {
 	return (
 		<div className="projects">
