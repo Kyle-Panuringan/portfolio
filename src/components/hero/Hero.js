@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import RM from "../../assets/resume.pdf";
+import RM from "../../assets/kyle-panuringan-resume.pdf";
 import { MdEmail } from "react-icons/md";
 import { ImGithub } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";

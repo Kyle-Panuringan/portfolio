@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 function Main() {
 	React.useEffect(() => {
-		AOS.init({ offset: 400, duration: 1700, mirror: true });
+		AOS.init({ offset: 500, duration: 1700, mirror: true });
 		AOS.refresh();
 	});
 	return (
