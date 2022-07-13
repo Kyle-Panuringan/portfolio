@@ -23,7 +23,7 @@ function Main() {
 			<div data-aos="fade-right">
 				<Projects />
 			</div>
-			<div data-aos="fade-up">
+			<div data-aos="fade-left">
 				<Contact />
 			</div>
 		</main>
