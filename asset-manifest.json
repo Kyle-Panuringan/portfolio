@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/porfolio/static/css/main.bd19badc.css",
-    "main.js": "/porfolio/static/js/main.0c9788ea.js",
-    "static/media/project3.png": "/porfolio/static/media/project3.78b23ed625b1343688ee.png",
-    "static/media/project2.png": "/porfolio/static/media/project2.a42fc272adf5ee5bd4fd.png",
-    "static/media/project1.png": "/porfolio/static/media/project1.e16ce640055efe18a011.png",
-    "static/media/hero.jpg": "/porfolio/static/media/hero.fbae4f44ea79c2df741e.jpg",
-    "static/media/kyle-panuringan-resume.pdf": "/porfolio/static/media/kyle-panuringan-resume.02a84bbe63d69740eea9.pdf",
-    "static/media/heroMobile.jpg": "/porfolio/static/media/heroMobile.b692027fc90cf0db538e.jpg",
-    "static/media/react.svg": "/porfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
-    "static/media/github.svg": "/porfolio/static/media/github.e0d7d7254ac0545743fc7af09c1e977b.svg",
-    "static/media/javascript.svg": "/porfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
-    "static/media/git.svg": "/porfolio/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
-    "index.html": "/porfolio/index.html",
-    "static/media/linkedin.svg": "/porfolio/static/media/linkedin.b7580aa746f6f01a524086bfec07feae.svg",
-    "static/media/css.svg": "/porfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
-    "static/media/html.svg": "/porfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.bd19badc.css.map": "/porfolio/static/css/main.bd19badc.css.map",
-    "main.0c9788ea.js.map": "/porfolio/static/js/main.0c9788ea.js.map"
+    "main.css": "/portfolio/static/css/main.2622dced.css",
+    "main.js": "/portfolio/static/js/main.84e5eeec.js",
+    "static/media/project3.png": "/portfolio/static/media/project3.78b23ed625b1343688ee.png",
+    "static/media/project2.png": "/portfolio/static/media/project2.a42fc272adf5ee5bd4fd.png",
+    "static/media/project1.png": "/portfolio/static/media/project1.e16ce640055efe18a011.png",
+    "static/media/hero.jpg": "/portfolio/static/media/hero.fbae4f44ea79c2df741e.jpg",
+    "static/media/kyle-panuringan-resume.pdf": "/portfolio/static/media/kyle-panuringan-resume.02a84bbe63d69740eea9.pdf",
+    "static/media/heroMobile.jpg": "/portfolio/static/media/heroMobile.b692027fc90cf0db538e.jpg",
+    "static/media/react.svg": "/portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.e0d7d7254ac0545743fc7af09c1e977b.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.b7580aa746f6f01a524086bfec07feae.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.2622dced.css.map": "/portfolio/static/css/main.2622dced.css.map",
+    "main.84e5eeec.js.map": "/portfolio/static/js/main.84e5eeec.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd19badc.css",
-    "static/js/main.0c9788ea.js"
+    "static/css/main.2622dced.css",
+    "static/js/main.84e5eeec.js"
   ]
 }
