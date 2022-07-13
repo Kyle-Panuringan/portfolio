@@ -1,17 +1,31 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./main.css";
 import Hero from "../hero/Hero";
 import Projects from "../projects/Projects";
 import About from "../about/About";
 import Contact from "../contact/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Main() {
+	React.useEffect(() => {
+		AOS.init({ offset: 400, duration: 1700, mirror: true });
+		AOS.refresh();
+	});
 	return (
 		<main>
-			<Hero />
-			<About />
-			<Projects />
-			<Contact />
+			<div data-aos="fade-down">
+				<Hero />
+			</div>
+			<div data-aos="fade-left">
+				<About />
+			</div>
+			<div data-aos="fade-right">
+				<Projects />
+			</div>
+			<div data-aos="fade-up">
+				<Contact />
+			</div>
 		</main>
 	);
 }
