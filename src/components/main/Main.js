@@ -8,24 +8,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Main() {
-	React.useEffect(() => {
-		AOS.init({ offset: 500, duration: 1700, mirror: true });
-		AOS.refresh();
-	});
 	return (
 		<main>
-			<div data-aos="fade-down">
-				<Hero />
-			</div>
-			<div data-aos="fade-left">
-				<About />
-			</div>
-			<div data-aos="fade-right">
-				<Projects />
-			</div>
-			<div data-aos="fade-left">
-				<Contact />
-			</div>
+			<Hero />
+			<About />
+			<Projects />
+			<Contact />
 		</main>
 	);
 }
