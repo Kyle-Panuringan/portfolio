@@ -11,6 +11,7 @@
 	box-sizing: border-box;
 }
 body {
+	position: relative;
 	color: var(--color-font-white-1);
 	background: var(--color-primary-black-1);
 	margin: 0;
