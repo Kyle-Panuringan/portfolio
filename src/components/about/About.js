@@ -13,7 +13,7 @@ function About() {
 			<p>
 				Hello my name is Kyle Panuringan, I am looking for a opportunity
 				to get a full-time job as a Entry/Junior Front-end Developer and
-				learn many new things that will help me to improve more on this
+				learn new things that will help me to improve more on this
 				field.
 			</p>
 			<hr />
