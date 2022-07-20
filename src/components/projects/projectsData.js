@@ -1,6 +1,7 @@
 import image1 from "../../assets/project1.png";
 import image2 from "../../assets/project2.png";
 import image3 from "../../assets/project3.png";
+import image4 from "../../assets/project4.png";
 const projectsData = [
 	{
 		id: 1,
@@ -28,6 +29,14 @@ const projectsData = [
 			"Weather App is website where you can view the current weather information around the world.",
 		code: "https://github.com/Kyle-Panuringan/weather-app",
 		demo: "https://kyle-panuringan.github.io/weather-app/",
+	},
+	{
+		id: 4,
+		src: image4,
+		title: "Landing Page",
+		description: "Klavier is a landing page build with Sass.",
+		code: "https://github.com/Kyle-Panuringan/landing-page",
+		demo: "https://kyle-panuringan.github.io/landing-page/",
 	},
 ];
 export default projectsData;
