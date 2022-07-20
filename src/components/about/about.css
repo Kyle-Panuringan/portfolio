@@ -48,7 +48,7 @@
 @media screen and (max-width: 870px) {
 	.about {
 		justify-content: flex-start;
-		padding-top: 14%;
+		padding: 14% 10px 0;
 	}
 	.about p {
 		font-size: 1.2rem;
@@ -72,6 +72,9 @@
 	.about ul {
 		list-style-type: none;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
+	}
+	.about li {
+		margin: 14px 10px;
 	}
 }

@@ -6,6 +6,9 @@ import JS from "../../assets/javascript.svg";
 import RT from "../../assets/react.svg";
 import GI from "../../assets/git.svg";
 import GH from "../../assets/github.svg";
+import SA from "../../assets/sass.svg";
+import RE from "../../assets/redux.svg";
+
 function About() {
 	return (
 		<div className="about" id="about">
@@ -32,8 +35,16 @@ function About() {
 					<p>JavaScript</p>
 				</li>
 				<li>
+					<img src={SA} alt="Sass Logo" />
+					<p>GitHub</p>
+				</li>
+				<li>
 					<img src={RT} alt="React Logo" />
 					<p>React</p>
+				</li>
+				<li>
+					<img src={RE} alt="Redux Logo" />
+					<p>Redux</p>
 				</li>
 				<li>
 					<img src={GI} alt="Git Logo" />
