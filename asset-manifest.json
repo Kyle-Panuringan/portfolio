@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ce3c20b1.css",
-    "main.js": "/portfolio/static/js/main.b1370c8f.js",
+    "main.js": "/portfolio/static/js/main.7b6237d5.js",
     "static/media/project3.png": "/portfolio/static/media/project3.78b23ed625b1343688ee.png",
     "static/media/project4.png": "/portfolio/static/media/project4.2bf3728dc4a51764c766.png",
     "static/media/project2.png": "/portfolio/static/media/project2.a42fc272adf5ee5bd4fd.png",
     "static/media/project1.png": "/portfolio/static/media/project1.e16ce640055efe18a011.png",
-    "static/media/kyle-panuringan-resume.pdf": "/portfolio/static/media/kyle-panuringan-resume.0e0ffd5e37e1e8a6dba9.pdf",
+    "static/media/kyle-panuringan-resume.pdf": "/portfolio/static/media/kyle-panuringan-resume.da1d7a6b0c7a812fd109.pdf",
     "static/media/hero.jpg": "/portfolio/static/media/hero.fbae4f44ea79c2df741e.jpg",
     "static/media/heroMobile.jpg": "/portfolio/static/media/heroMobile.b692027fc90cf0db538e.jpg",
     "static/media/sass.svg": "/portfolio/static/media/sass.02dda4cb70eb34023b9a05eecd50e50e.svg",
@@ -20,10 +20,10 @@
     "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.ce3c20b1.css.map": "/portfolio/static/css/main.ce3c20b1.css.map",
-    "main.b1370c8f.js.map": "/portfolio/static/js/main.b1370c8f.js.map"
+    "main.7b6237d5.js.map": "/portfolio/static/js/main.7b6237d5.js.map"
   },
   "entrypoints": [
     "static/css/main.ce3c20b1.css",
-    "static/js/main.b1370c8f.js"
+    "static/js/main.7b6237d5.js"
   ]
 }
