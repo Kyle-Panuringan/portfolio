@@ -19,7 +19,7 @@ const Contact = () => {
   const [isSuccess, setIsSuccess] = useState(false);
 
   const handleClose = (
-    event?: React.SyntheticEvent | Event,
+    _event?: React.SyntheticEvent | Event,
     reason?: string
   ) => {
     if (reason === "clickaway") {
@@ -47,7 +47,7 @@ const Contact = () => {
             setIsSuccess(true);
             target.reset();
           },
-          (error) => {
+          () => {
             setOpen(true);
             setIsSuccess(false);
           }
