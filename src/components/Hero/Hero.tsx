@@ -24,8 +24,8 @@ const Hero = () => {
     <BoxContainer
       sx={{
         backgroundImage: {
-          xs: "url(./src/assets/heroMobile.jpg)",
-          md: "url(./src/assets/hero.jpg)",
+          xs: "url(../../assets/heroMobile.jpg)",
+          md: "url(../../assets/hero.jpg)",
         },
       }}
     >
