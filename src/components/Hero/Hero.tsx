@@ -3,8 +3,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import RM from "../../assets/Kyle Panuringan - Resume.pdf";
-import hero from "../../assets/hero.jpg";
-import heroMobile from "../../assets/heroMobile.jpg";
 
 const BoxContainer = styled(Box)({
   position: "relative",
@@ -26,8 +24,8 @@ const Hero = () => {
     <BoxContainer
       sx={{
         backgroundImage: {
-          xs: `url(${heroMobile})`,
-          md: `url(${hero})`,
+          xs: `../../assets/heroMobile.jpg`,
+          md: `../../assets/hero.jpg`,
         },
       }}
     >
