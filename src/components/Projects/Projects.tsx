@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import todoTasks from "../../assets/projects/todoTasks.png";
 import countries from "../../assets/projects/projectCountries.png";
+import grandPiano from "../../assets/projects/grandPiano.png";
 import SA from "../../assets/sass.svg";
 import JS from "../../assets/javascript.svg";
 import TS from "../../assets/typescript.svg";
@@ -32,6 +33,15 @@ const projects = [
     tools: [SA, JS, TS],
     urlSrc: "https://github.com/Kyle-Panuringan/countries",
     urlDemo: "https://kyle-panuringan.github.io/countries/",
+  },
+  {
+    img: grandPiano,
+    title: "GRAND PIANO",
+    details:
+      "Grand Piano is a sample landing page about learning how to play piano and becoming a pianist.",
+    tools: [JS, TS],
+    urlSrc: "https://github.com/Kyle-Panuringan/grand-piano",
+    urlDemo: "https://kyle-panuringan.github.io/grand-piano/",
   },
 ];
 
