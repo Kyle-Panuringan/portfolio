@@ -11,9 +11,11 @@ import {
 import todoTasks from "../../assets/projects/todoTasks.png";
 import countries from "../../assets/projects/projectCountries.png";
 import grandPiano from "../../assets/projects/grandPiano.png";
+import shop from "../../assets/projects/shop.png";
 import SA from "../../assets/sass.svg";
 import JS from "../../assets/javascript.svg";
 import TS from "../../assets/typescript.svg";
+import MU from "../../assets/mui.svg";
 
 const projects = [
   {
@@ -21,7 +23,11 @@ const projects = [
     title: "TODO TASKS",
     details:
       "Todo Tasks is a task management that help you to create, add, edit, and delete task. Use LocalStorage to store task data.",
-    tools: [SA, JS, TS],
+    tools: [
+      { logo: JS, title: "JavaScript" },
+      { logo: TS, title: "TypeScript" },
+      { logo: SA, title: "Sass" },
+    ],
     urlSrc: "https://github.com/Kyle-Panuringan/todo-tasks",
     urlDemo: "https://kyle-panuringan.github.io/todo-tasks/",
   },
@@ -30,7 +36,11 @@ const projects = [
     title: "COUNTRY DATABASE",
     details:
       'Country Database is a database of information about countries around the world. Use Rest Countries\'s API from "restcountries.com"',
-    tools: [SA, JS, TS],
+    tools: [
+      { logo: JS, title: "JavaScript" },
+      { logo: TS, title: "TypeScript" },
+      { logo: SA, title: "Sass" },
+    ],
     urlSrc: "https://github.com/Kyle-Panuringan/countries",
     urlDemo: "https://kyle-panuringan.github.io/countries/",
   },
@@ -39,9 +49,26 @@ const projects = [
     title: "GRAND PIANO",
     details:
       "Grand Piano is a sample landing page about learning how to play piano and becoming a pianist.",
-    tools: [JS, TS],
+    tools: [
+      { logo: JS, title: "JavaScript" },
+      { logo: TS, title: "TypeScript" },
+      { logo: MU, title: "MUI" },
+    ],
     urlSrc: "https://github.com/Kyle-Panuringan/grand-piano",
     urlDemo: "https://kyle-panuringan.github.io/grand-piano/",
+  },
+  {
+    img: shop,
+    title: "Shop",
+    details:
+      'Shop is a simple e-commerce website wherein you can filter out and search the available products on the page. Use api from "fakestoreapi.com" for product data.',
+    tools: [
+      { logo: JS, title: "JavaScript" },
+      { logo: TS, title: "TypeScript" },
+      { logo: MU, title: "MUI" },
+    ],
+    urlSrc: "https://github.com/Kyle-Panuringan/shop",
+    urlDemo: "https://kyle-panuringan.github.io/shop/",
   },
 ];
 
@@ -99,12 +126,13 @@ const Projects = () => {
                     marginBottom: "10px",
                   }}
                 >
-                  {project.tools.map((tool, i) => (
+                  {project.tools.map(({ logo, title }, i) => (
                     <Box
                       key={i}
                       component="img"
-                      src={tool}
+                      src={logo}
                       sx={{ mx: "4px", borderRadius: "5px" }}
+                      title={title}
                     />
                   ))}
                 </Stack>
