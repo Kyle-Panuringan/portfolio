@@ -59,7 +59,7 @@ const projects = [
   },
   {
     img: shop,
-    title: "Shop",
+    title: "SHOP",
     details:
       'Shop is a simple e-commerce website wherein you can filter out and search the available products on the page. Use api from "fakestoreapi.com" for product data.',
     tools: [
