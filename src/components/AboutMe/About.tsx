@@ -7,6 +7,7 @@ import TS from "../../assets/typescript.svg";
 import JV from "../../assets/java.svg";
 import RT from "../../assets/react.svg";
 import GI from "../../assets/git.svg";
+import MU from "../../assets/mui.svg";
 
 const ImgTechStack = styled("img")({
   minWidth: "50px",
@@ -15,7 +16,7 @@ const ImgTechStack = styled("img")({
 
 const About = () => {
   return (
-    <Box id="aboutme" sx={{ bgcolor: "secondary.main", height: "100vh" }}>
+    <Box id="aboutme" sx={{ bgcolor: "secondary.main", minHeight: "100vh" }}>
       <Divider
         sx={{
           width: "90%",
@@ -66,21 +67,53 @@ const About = () => {
           width="100%"
           flexWrap="wrap"
           gap={2}
+          paddingBottom={2}
         >
           <ImgTechStack
             sx={{ height: { xs: "50px", md: "100px" } }}
             src={HTML}
+            title="HTML"
           />
           <ImgTechStack
             sx={{ height: { xs: "50px", md: "100px" } }}
             src={CSS}
+            title="CSS"
           />
-          <ImgTechStack sx={{ height: { xs: "50px", md: "100px" } }} src={SA} />
-          <ImgTechStack sx={{ height: { xs: "50px", md: "100px" } }} src={JS} />
-          <ImgTechStack sx={{ height: { xs: "50px", md: "100px" } }} src={TS} />
-          <ImgTechStack sx={{ height: { xs: "50px", md: "100px" } }} src={JV} />
-          <ImgTechStack sx={{ height: { xs: "50px", md: "100px" } }} src={RT} />
-          <ImgTechStack sx={{ height: { xs: "50px", md: "100px" } }} src={GI} />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={SA}
+            title="Sass"
+          />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={JS}
+            title="JavaScript"
+          />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={TS}
+            title="TypeScript"
+          />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={JV}
+            title="Java"
+          />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={RT}
+            title="React"
+          />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={GI}
+            title="Git"
+          />
+          <ImgTechStack
+            sx={{ height: { xs: "50px", md: "100px" } }}
+            src={MU}
+            title="Mui"
+          />
         </Stack>
       </Stack>
     </Box>
