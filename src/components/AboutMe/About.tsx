@@ -16,7 +16,7 @@ const ImgTechStack = styled("img")({
 
 const About = () => {
   return (
-    <Box id="aboutme" sx={{ bgcolor: "secondary.main", minHeight: "100vh" }}>
+    <Box id="aboutme" sx={{ bgcolor: "secondary.main" }}>
       <Divider
         sx={{
           width: "90%",
@@ -26,7 +26,12 @@ const About = () => {
       />
       <Stack
         textAlign="center"
-        sx={{ height: "100%", justifyContent: "center", px: { xs: 2, md: 20 } }}
+        sx={{
+          height: "100%",
+          justifyContent: "center",
+          px: { xs: 2, md: 20 },
+          py: 7,
+        }}
       >
         <Typography
           paddingY={2}

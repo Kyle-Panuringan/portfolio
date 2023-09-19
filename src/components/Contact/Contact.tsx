@@ -61,17 +61,11 @@ const Contact = () => {
       sx={{
         border: "4px solid darkred",
         bgcolor: "secondary.main",
-        minHeight: "100vh",
+        minHeight: { lg: "100vh" },
       }}
     >
-      <Stack direction="column" sx={{ height: "100%" }}>
-        <Typography
-          variant="h4"
-          textAlign="center"
-          py={2}
-          color="primary.main"
-          flexGrow={0}
-        >
+      <Stack direction="column">
+        <Typography variant="h4" textAlign="center" py={2} color="primary.main">
           CONTACT ME
         </Typography>
         <Divider
@@ -86,12 +80,11 @@ const Contact = () => {
           component="form"
           ref={form}
           sx={{
+            height: "100%",
             marginTop: "20px",
             marginInline: "auto",
-            justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
-            flexGrow: 1,
             width: { xs: "90%", md: "50%" },
           }}
         >
@@ -141,7 +134,7 @@ const Contact = () => {
           >
             Send
           </Button>
-          <Stack direction="column" textAlign="center" sx={{ flexGrow: 0 }}>
+          <Stack direction="column" textAlign="center">
             <Button
               href="mailto:kylepanuringan@gmail.com"
               sx={{

@@ -74,7 +74,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <Box sx={{ minHeight: "100vh", bgcolor: "secondary.main" }}>
+    <Box sx={{ bgcolor: "secondary.main" }}>
       <Typography
         id="projects"
         variant="h4"
@@ -92,7 +92,7 @@ const Projects = () => {
           bgcolor: "secondary.main",
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(265px, 1fr))",
-          py: "20px",
+          py: 7,
           px: { xs: "20px", md: "77px" },
           gap: 2,
         }}
