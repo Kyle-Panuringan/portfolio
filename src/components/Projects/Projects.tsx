@@ -76,7 +76,7 @@ const Projects = () => {
   return (
     <Box sx={{ bgcolor: "secondary.main" }}>
       <Typography
-        id="projects"
+        id="personalprojects"
         variant="h4"
         sx={{
           bgcolor: "primary.main",
@@ -85,7 +85,7 @@ const Projects = () => {
           py: 2,
         }}
       >
-        PROJECTS
+        PERSONAL PROJECTS
       </Typography>
       <Box
         sx={{

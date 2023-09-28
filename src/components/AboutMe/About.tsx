@@ -1,18 +1,27 @@
-import { Box, Divider, Stack, Typography, styled } from "@mui/material";
-import HTML from "../../assets/html.svg";
-import CSS from "../../assets/css.svg";
-import SA from "../../assets/sass.svg";
-import JS from "../../assets/javascript.svg";
-import TS from "../../assets/typescript.svg";
-import JV from "../../assets/java.svg";
-import RT from "../../assets/react.svg";
-import GI from "../../assets/git.svg";
-import MU from "../../assets/mui.svg";
+import { Box, Divider, Stack, Typography } from "@mui/material";
+import iHtml from "../../assets/html.svg";
+import iCss from "../../assets/css.svg";
+import iSass from "../../assets/sass.svg";
+import iJavaScript from "../../assets/javascript.svg";
+import iTypeScript from "../../assets/typescript.svg";
+import iJava from "../../assets/java.svg";
+import iMySql from "../../assets/mysql.svg";
+import iReact from "../../assets/react.svg";
+import iGit from "../../assets/git.svg";
+import iMui from "../../assets/mui.svg";
 
-const ImgTechStack = styled("img")({
-  minWidth: "50px",
-  widht: "100%",
-});
+const techStack = [
+  { name: "HTML", img: iHtml },
+  { name: "CSS", img: iCss },
+  { name: "Sass", img: iSass },
+  { name: "JavaScript", img: iJavaScript },
+  { name: "TypeScript", img: iTypeScript },
+  { name: "Java", img: iJava },
+  { name: "MySql", img: iMySql },
+  { name: "React", img: iReact },
+  { name: "Git", img: iGit },
+  { name: "Material UI", img: iMui },
+];
 
 const About = () => {
   return (
@@ -65,61 +74,33 @@ const About = () => {
         >
           TECH STACK
         </Typography>
-        <Stack
-          direction="row"
-          justifyContent="center"
-          alignItems="center"
-          width="100%"
-          flexWrap="wrap"
-          gap={2}
-          paddingBottom={2}
+        <Box
+          sx={{
+            display: "grid",
+            gridTemplateColumns: {
+              xs: "repeat(auto-fit, minmax(100px, 1fr))",
+              md: "repeat(auto-fit, minmax(150px, 1fr))",
+            },
+          }}
+          gap={1}
         >
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={HTML}
-            title="HTML"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={CSS}
-            title="CSS"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={SA}
-            title="Sass"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={JS}
-            title="JavaScript"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={TS}
-            title="TypeScript"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={JV}
-            title="Java"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={RT}
-            title="React"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={GI}
-            title="Git"
-          />
-          <ImgTechStack
-            sx={{ height: { xs: "50px", md: "100px" } }}
-            src={MU}
-            title="Mui"
-          />
-        </Stack>
+          {techStack.map((item, index) => {
+            return (
+              <Box
+                key={index}
+                sx={{ border: "2px solid darkred", borderRadius: 2, py: 2 }}
+              >
+                <Box
+                  component="img"
+                  src={item.img}
+                  width="70px"
+                  height="70px"
+                />
+                <Typography variant="h6">{item.name}</Typography>
+              </Box>
+            );
+          })}
+        </Box>
       </Stack>
     </Box>
   );

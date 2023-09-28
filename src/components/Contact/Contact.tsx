@@ -61,7 +61,6 @@ const Contact = () => {
       sx={{
         border: "4px solid darkred",
         bgcolor: "secondary.main",
-        minHeight: { lg: "100vh" },
       }}
     >
       <Stack direction="column">

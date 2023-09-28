@@ -13,7 +13,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 
-const navButtons = ["Home", "About Me", "Projects", "Contact"];
+const navButtons = ["Home", "About Me", "Personal Projects", "Contact"];
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
