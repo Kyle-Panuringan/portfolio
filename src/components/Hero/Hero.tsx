@@ -2,7 +2,6 @@ import { Box, Typography, Button, IconButton, styled } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import Resume from "../../assets/Kyle_Panuringan_Resume.pdf";
 import hero from "../../assets/hero.jpg";
 import heroMobile from "../../assets/heroMobile.jpg";
 
@@ -103,7 +102,7 @@ const Hero = () => {
             boxShadow: "0 0 7px red",
             "&:hover": { color: "red" },
           }}
-          href={Resume}
+          href={"../../assets/Kyle_Panuringan_Resume.pdf"}
           target="_blank"
         >
           Download Resume
