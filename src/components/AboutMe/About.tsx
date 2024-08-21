@@ -60,8 +60,8 @@ const About = () => {
         >
           Hello, my name is Kyle Panuringan, a BSIT graduate from STI College
           Las Piñas. In the tech industry, I am more familiar in front-end
-          development. As a recent graduate, I am eager and willing to learn new
-          more things to become a highly skilled professional.
+          development. Seeking an entry-level position in Information Technology
+          to learn more and further enhance my skills within the tech industry.
         </Typography>
         <Typography
           variant="h3"
