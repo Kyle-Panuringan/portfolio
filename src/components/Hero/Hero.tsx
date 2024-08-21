@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import hero from "../../assets/hero.jpg";
 import heroMobile from "../../assets/heroMobile.jpg";
+import RM from "../../assets/Kyle_Panuringan_Resume.pdf";
 
 const BoxContainer = styled(Box)({
   position: "relative",
@@ -102,7 +103,7 @@ const Hero = () => {
             boxShadow: "0 0 7px red",
             "&:hover": { color: "red" },
           }}
-          href={"../../assets/Kyle_Panuringan_Resume.pdf"}
+          href={RM}
           target="_blank"
         >
           Download Resume
