@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+# Portfolio
 
-[Portfolio](https://kyle-panuringan.github.io/portfolio/)
+[Link](https://kyle-panuringan.github.io/portfolio/)
