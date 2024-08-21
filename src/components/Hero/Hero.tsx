@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import hero from "../../assets/hero.jpg";
 import heroMobile from "../../assets/heroMobile.jpg";
-import RM from "../../assets/KylePanuringan.pdf";
+import RM from "../../assets/KylePanuringanResume.pdf";
 
 const BoxContainer = styled(Box)({
   position: "relative",
