@@ -22,7 +22,7 @@ const projects = [
     img: todoTasks,
     title: "TODO TASKS",
     details:
-      "Todo Tasks is a task management that help you to create, add, edit, and delete task. Use LocalStorage to store task data.",
+      "Todo Tasks is a simple task management that help you to create, add, edit, and delete task. Use LocalStorage to store task data.",
     tools: [
       { logo: JS, title: "JavaScript" },
       { logo: TS, title: "TypeScript" },
