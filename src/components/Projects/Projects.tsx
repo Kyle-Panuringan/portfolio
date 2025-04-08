@@ -16,6 +16,7 @@ import SA from "../../assets/sass.svg";
 import JS from "../../assets/javascript.svg";
 import TS from "../../assets/typescript.svg";
 import MU from "../../assets/mui.svg";
+import RE from "../../assets/react.svg";
 
 const projects = [
   {
@@ -26,6 +27,7 @@ const projects = [
     tools: [
       { logo: JS, title: "JavaScript" },
       { logo: TS, title: "TypeScript" },
+      { logo: RE, title: "React" },
       { logo: SA, title: "Sass" },
     ],
     urlSrc: "https://github.com/Kyle-Panuringan/todo-tasks",
@@ -39,6 +41,7 @@ const projects = [
     tools: [
       { logo: JS, title: "JavaScript" },
       { logo: TS, title: "TypeScript" },
+      { logo: RE, title: "React" },
       { logo: SA, title: "Sass" },
     ],
     urlSrc: "https://github.com/Kyle-Panuringan/countries",
@@ -52,6 +55,7 @@ const projects = [
     tools: [
       { logo: JS, title: "JavaScript" },
       { logo: TS, title: "TypeScript" },
+      { logo: RE, title: "React" },
       { logo: MU, title: "MUI" },
     ],
     urlSrc: "https://github.com/Kyle-Panuringan/grand-piano",
@@ -65,6 +69,7 @@ const projects = [
     tools: [
       { logo: JS, title: "JavaScript" },
       { logo: TS, title: "TypeScript" },
+      { logo: RE, title: "React" },
       { logo: MU, title: "MUI" },
     ],
     urlSrc: "https://github.com/Kyle-Panuringan/shop",
